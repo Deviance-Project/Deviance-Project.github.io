@@ -10,7 +10,10 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Example Images
+
+![Intro Figure](/assets/images/1_intro_figure.png)
+![Class examples](/assets/images/3_dataset_4column2.png)
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -97,9 +100,6 @@ end
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
-
-<embed src="/assets/images/1_intro_figure.pdf" type="application/pdf">
-<embed src="/assets/images/3_dataset_4column2.pdf" type="application/pdf">
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
