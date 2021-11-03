@@ -12,7 +12,6 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Example Images
 
-![Intro Figure](/assets/images/1_intro_figure.png)
 ![Class examples](/assets/images/3_dataset_4column2.png)
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
