@@ -98,8 +98,8 @@ end
 
 ### Large image
 
-![Alt text](assets/images/1_intro_figure.pdf)
-![Alt text](assets/images/3_dataset_4column2.pdf)
+![Intro figure](./assets/images/1_intro_figure.pdf)
+![Class image example](./assets/images/3_dataset_4column2.pdf)
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
