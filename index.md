@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ![video](/assets/video/intro.mp4)
 
 ## Example Images
