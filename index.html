@@ -4,14 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="OQgUokTjYO-eJWf9PtyexQp3L5l6zeByhd3DSZW7C3A" />
-    <meta name="title"
-          content="Deviance net">
     <meta name="description"
-          content="Deviance net, AAAI, AAAI 2022, deviance-project, deviance project, Deviance dataset, Dataset, under review paper">
-    <meta name="keywords"
-          content="DevianceNet, Deviance net, AAAI, AAAI 2022, deviance-project, deviance project, Deviance dataset, Dataset, under review, git, github">
-    <meta name="author" content="">
+          content="">
+    <meta name="author" content="Vincent Sitzmann,
+                                Julien Martel,
+                                Alex Bergman,
+                                David Lindell,
+								Gordon Wetzstein">
 
     <title>DevianceNet</title>
     <!-- Bootstrap core CSS -->
@@ -31,34 +30,46 @@
 <!--            <p class="abstract">Predicting deviance via visual attributes</p>-->
     <hr>
     <div class="btn-group" role="group" aria-label="Top menu">
-        <a class="btn btn-primary" href="https://deviance-project.github.io">Paper</a>
-        <a class="btn btn-primary" href="https://drive.google.com/drive/folders/12tpfN9lBsoIvHJl_tHRz_C3pbJoEE33X?usp=sharing">Dataset</a>
-        <a class="btn btn-primary" href="https://deviance-project.github.io">Code</a>
+        <a class="btn btn-primary" href="https://github.com/Deviance-Project/AAAI2022">Paper</a>
+        <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1ERFaC_6IseQgXDvs5_ep5at56b-b7Vmg?usp=sharing">Dataset</a>
+        <a class="btn btn-primary" href="https://github.com/Deviance-Project/AAAI2022">Code</a>
         </div>
 </div>
 
 <div class="container">
     <div class="section">
+        <h2>Abstract</h2>
+        <hr>
+        <p>
+            Understanding how a city’s physical appearance and environmental surroundings impact society traits, such as safety, is an essential issue in social artificial intelligence. To demonstrate the relationship, most existing studies utilize subjective human perceptual attributes, categorization only for a few violent crimes, and images taken from still shot images. These lead to difficulty in identifying location-specific characteristics for urban safety. In this work, to address this problem, we propose a large-scale dataset and a novel method by adopting a concept of “Deviance” which explains behaviors violating social norms, both formally (e.g. crime) and informally (e.g. civil complaints). We first collect a geo-tagged dataset consisting of incident report data for seven metropolitan cities, with corresponding sequential images around incident sites obtained from Google street view. We also design a convolutional neural network that learns spatio-temporal visual attributes of deviant streets. Experimental results show that our framework can reliably recognize real-world deviance in various cities. Furthermore, we analyze which visual attribute is important for deviance identification and severity estimation. Lastly. we demonstrate the robustness of the proposed method by submitting source codes and dataset samples in the supplementary material.
+        </p>
+    </div>
+    <hr>
+	
+    <div class="section">
+        <h2>Supplementary Video</h2>
+	
         <div class="vcontainer">
             <iframe class='video' src="https://user-images.githubusercontent.com/93658342/140477709-7ab2a843-3986-4dd7-ad1b-e1f2e8bbfe8a.mp4" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
         </div>
-        <hr>
-        <p>
-            Dataset construction example.
-        </p>
     </div>
+	
     <div class="section">
-        <h2>Sample Images</h2>
-        <hr>
+        <h2>Dataset Examples</h2>
 		<div class="col-sm-3">
-			<img src='assets/images/1_intro_figure.png' class='img-intro'>
+			<img src='assets/images/1_Dataset Examples.png' class='img-dataset-example'>
 		</div>
     </div>
-
-    <hr>
 	
+    <div class="section">
+        <h2>Deviant Places Examples</h2>
+		<div class="col-sm-3">
+			<img src='assets/images/2_Deviant Places Examples.png' class='img-deviant-example'>
+		</div>
+    </div>
+    <hr>
 </div>
 
 
